@@ -1,0 +1,34 @@
+
+--- Game ---
+
+- chess table
+- movement table
+- isOver
+    - isCheckMate
+    - isDraw
+    - isTimeOut
+    - isResignation
+- 2 players
+- start
+- isCheck
+
+--- Player ---
+
+HAS
+
+- capturedPieces
+- name
+- color
+
+CAN
+
+- play
+--- movePiece
+--- selectPiece
+--- resign
+
+--- Chess Table ---
+
+- create
+- display
+- update
